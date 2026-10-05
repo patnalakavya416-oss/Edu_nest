@@ -6,7 +6,7 @@ import axios from "axios";
 
 // Base URL for the Express server
 const api = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://edu-nest-48ci.onrender.com",
 });
 
 // Request interceptor — runs before every request is sent
